@@ -1,0 +1,28 @@
+####################################################
+# Dynamic links to sources references in the paper #
+####################################################
+
+- Adience data set [EEH14]
+    -   Paper "Age and Gender Estimation of Unfiltered Faces" PDF: https://www.openu.ac.il/home/hassner/Adience/EidingerEnbarHassner_tifs.pdf
+    -   Fileshare: https://talhassner.github.io/home/projects/Adience/Adience-data.html
+
+- Gil Levi and Tal Hassners CNN for Age and Gender classificaiton [LH15]
+    -   Paper "Age and Gender Classification using Convolutional Neural Networks"
+        PDF: https://talhassner.github.io/home/projects/cnn_agegender/CVPR2015_CNN_AgeGenderEstimation.pdf
+    -   Github, source code: https://github.com/GilLevi/AgeGenderDeepLearning
+
+- RoR-34 approach to age and gender [Zh17]
+    -   Paper "Age Group and Gender Estimation in the Wild with Deep RoR Architecture" PDF: https://arxiv.org/pdf/1710.02985v1.pdf
+    -   Github, source code: https://github.com/ShreyanshJoshi/Facial-Demographics-using-CNN
+
+- SBF survey from 2021 [Ha21]
+    -   Paper "https://link.springer.com/content/pdf/10.1007/s11042-021-10622-8.pdf"
+
+- SBF survey from 2015 [Ni15]
+    -   Paper "https://vbn.aau.dk/ws/files/219488771/on_softbiometrics_preprint.pdf"
+
+- SBF survey from 2016 [DER16]
+    -   Paper "https://hal.inria.fr/hal-01247885/document"
+
+- Ethnicity [Ma18]
+    -   Paper "https://www.researchgate.net/profile/Srujan-Raju/publication/333916285_Data_Engineering_and_Intelligent_Computing_Proceedings_of_IC3T_2016/links/60dc1f3d458515d6fbeb0bc6/Data-Engineering-and-Intelligent-Computing-Proceedings-of-IC3T-2016.pdf#page=231"
