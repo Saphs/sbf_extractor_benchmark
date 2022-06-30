@@ -5,7 +5,7 @@ from pandas import Series, DataFrame
 from DataSets.DataSet import DataSet
 
 
-class Detector(ABC):
+class Classifier(ABC):
 
     @abstractmethod
     def name(self):

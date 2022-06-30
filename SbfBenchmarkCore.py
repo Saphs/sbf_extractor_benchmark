@@ -2,9 +2,9 @@ from typing import List, Tuple
 
 from DataSets.Adience import Adience
 from DataSets.DataSet import DataSet
-from Detectors.Detector import Detector
-from Detectors.LeviHessner.CaffeLeviHessner import CaffeLeviHessner
-from Detectors.Ror34 import Ror34
+from Classifiers.Classifier import Classifier
+from Classifiers.LeviHessner.CaffeLeviHessner import CaffeLeviHessner
+from Classifiers.Ror34 import Ror34
 from FieldTranslator.AdienceForLevi import AdienceForLevi
 
 ADIENCE_PATH = "/mnt/f/BSDatasets/Adience"
@@ -18,7 +18,7 @@ class SbfBenchmarkCore(object):
             ("Adience", Adience(ADIENCE_PATH))
         ]
 
-        self._known_detectors: List[Tuple[str, Detector]] = [
+        self._known_detectors: List[Tuple[str, Classifier]] = [
             ("RoR-34", Ror34()),
             ("LeviCNN", CaffeLeviHessner(LEVI_MODEL_PATH))
         ]
@@ -32,7 +32,7 @@ class SbfBenchmarkCore(object):
 
         return list(filter(_is_name_eq, self._known_datasets))[0][1]
 
-    def run(self, detector: Detector, dataset: DataSet, out: str = DEFAULT_OUT):
+    def run(self, detector: Classifier, dataset: DataSet, out: str = DEFAULT_OUT):
         for i in range(dataset.chunk_count() - 1):
             dataset.load(i)
             chunk_result = detector.detect(dataset)

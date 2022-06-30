@@ -4,7 +4,7 @@ import pandas as pd
 from pandas import Series, DataFrame
 
 from DataSets.DataSet import DataSet
-from Detectors.Detector import Detector
+from Classifiers.Detector import Detector
 
 sys.path.insert(1, '/mnt/f/BSClassifiers/caffe/python')
 import caffe

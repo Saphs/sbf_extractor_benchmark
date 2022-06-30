@@ -4,7 +4,7 @@ import pandas as pd
 from pandas import DataFrame, Series
 
 from DataSets.DataSet import DataSet
-from Detectors.Detector import Detector
+from Classifiers.Detector import Detector
 import requests
 
 
